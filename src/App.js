@@ -1,11 +1,8 @@
-import React from 'react';
+import React from "react"
+import Admin from "./components/Dashboards/admin"
 
 function App() {
-  return (
-    <h1 className="font-bold underline">
-      Masjid E Bilal
-    </h1>
-  );
+  return <Admin />
 }
 
-export default App;
+export default App
