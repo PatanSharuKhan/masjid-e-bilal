@@ -6,7 +6,7 @@ class TimeUpdater {
   static prayerTimes = [
     { name: "Fajr", time: [5, 30] },
     { name: "Dhuhr", time: [12, 30] },
-    { name: "Asr", time: [15, 0] },
+    { name: "Asr", time: [16, 30] },
     { name: "Maghrib", time: [18, 40] },
     { name: "Isha", time: [20, 30] },
   ]
