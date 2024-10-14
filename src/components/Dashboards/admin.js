@@ -2,6 +2,7 @@ import React from "react"
 import CustomNavbar from "../customNavbar"
 import CurrentStatusBoard from "../CurrentStatusBoard"
 import NamazTimeBoard from "../NamazTimeBoard"
+import CustomCarousel from "../CustomCarousel"
 
 const Admin = () => {
   return (
@@ -9,6 +10,7 @@ const Admin = () => {
       <CustomNavbar />
       <CurrentStatusBoard />
       <NamazTimeBoard />
+      <CustomCarousel />
     </>
   )
 }
