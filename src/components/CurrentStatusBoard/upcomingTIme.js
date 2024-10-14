@@ -65,7 +65,7 @@ const UpcomingTime = () => {
   }, [])
 
   return (
-    <div className="border-4 rounded-xl p-2 my-green-border text-center col-span-3 md:col-span-6 lg:col-span-10">
+    <div className="border-4 rounded-xl p-2 my-green-border text-center">
       <h1 className="my-light-text font-bold">{upcomingPrayer?.name}</h1>
       <h1 className="my-green-text font-bold text-lg">
         {upcomingPrayer?.time[0]}:{upcomingPrayer?.time[1]}
